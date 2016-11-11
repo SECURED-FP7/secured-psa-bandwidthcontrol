@@ -1,0 +1,25 @@
+{
+	"name": "user_profile_type",
+	"user_token": "",
+	"profile_type": "AD",			
+
+	"PSASet": [
+		
+		{
+			"id": "bwcontrol",
+			"security_controls": [
+				
+				{
+					"imgName": "PSA-bwcontrol.img",
+					"conf_id":"bwcontrol"
+				}
+				
+			] 
+			
+		}
+	], 
+	
+	"ingress_flow": ["12345"],
+	"egress_flow": ["12345"]
+
+}
